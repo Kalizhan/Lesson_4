@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Hello world"
+        android:text="1 page"
         android:textColor="#B81D1D"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
