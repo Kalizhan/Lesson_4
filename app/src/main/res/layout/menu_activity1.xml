@@ -6,15 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
+
+    <LinearLayout
+        android:layout_width="100dp"
         android:layout_height="0dp"
-        android:text="1 page"
-        android:textColor="#B81D1D"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/menu_btn_style"
+            android:text="Back"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
